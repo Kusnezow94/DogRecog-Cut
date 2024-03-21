@@ -50,8 +50,8 @@ def expand_crop_area(img, detection_box, expansion_factor=1.5, target_size=(1080
     return final_img
 
 # Specify the directory containing images
-image_dir = "/Users/vladimirkusnezow/Desktop/BreedCutter/Files"
-output_dir = "/Users/vladimirkusnezow/Desktop/BreedCutter/Cut"
+image_dir = "/BreedCutter/Files"
+output_dir = "/BreedCutter/Cut"
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
